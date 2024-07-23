@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden; /* Added to clear float */
+}
+
+h1, h2 {
+    color: #b90909;
+}
+
+p {
+    color: #1651c7;
+}
+
+.left-aligned-image {
+    float: left; /* Float the image to the left */
+    margin: 10px 20px 10px 0; /* Add margin around the image */
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+}
+
+.input label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.input input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #b90909;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a10808;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
